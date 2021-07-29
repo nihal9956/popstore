@@ -99,13 +99,41 @@ export default function Sidebar() {
                   <Link to="/comproducts">Products</Link>
                 </li>
                 <li>
-                  <a href="/comcatagory">Category
-                  </a>
+                  <a href="/comcatagory">Category</a>
+                </li>
+                <li>
+                  <a href="/comsubcatagory">Sub Category</a>
                 </li>
               </ul>
+            </li>
+            <li>
+              <Link to="/clients">
+                <img src="/assets/images/icons/viewer-icon.png" />
+                <span>Customers</span>
+              </Link>
+            </li>
+            <li>
+              <Link to="#" className="has-arrow">
+                <img src="/assets/images/icons/cms-icon.png" />
+                <span>Configuration</span>
+              </Link>
+              <ul className="sub-menu" aria-expanded={false}>
+              <li>
+                <Link to="/gst">GST</Link>
+              </li>
+              <li>
+                <Link to="/socialmedia">Social Media</Link>
+              </li>
+              <li>
+                <Link to="/address">Address</Link>
+              </li>
+              <li>
+                <Link to="/logo">Logo</Link>
+              </li>
+            </ul>
 
             </li>
-
+            
             {/* <li>
               <Link to="/earning">
                 <img src="/assets/images/icons/earning-icon.png" />

@@ -18,6 +18,15 @@ import Catagory from "../Components/main/Commerce/Catagory/Catagory";
 import AddCatagory from "../Components/main/Commerce/Catagory/AddCatagory";
 import EditCatagory from "../Components/main/Commerce/Catagory/EditCatagory";
 import Base from '../Components/Base'
+import Subcategory from "../Components/main/Commerce/Subcategory/Subcategory";
+import Addsubcategory from "../Components/main/Commerce/Subcategory/Addsubcategory";
+import EditSubcategory from "../Components/main/Commerce/Subcategory/EditSubcategory";
+import Client from "../Components/main/Commerce/Clients/Client";
+import ViewClient from "../Components/main/Commerce/Clients/ViewClient";
+import Gst from "../Components/main/Commerce/Configration/Gst";
+import Socialmedia from "../Components/main/Commerce/Configration/Socialmedia";
+import Address from "../Components/main/Commerce/Configration/Address";
+import Logo from "../Components/main/Commerce/Configration/Logo";
 const { token } = isAutheticated();
 
 export default function Routes() {
@@ -113,6 +122,28 @@ export default function Routes() {
             exact
             path="/comcatagory/edit/:catagoryId"
           ></PrivateRoute>
+          <PrivateRoute
+            component={Subcategory}
+            exact
+            path="/comsubcatagory"
+          ></PrivateRoute>
+          <PrivateRoute
+            component={Addsubcategory}
+            exact
+            path="/comsubcatagory/add"
+          ></PrivateRoute>
+          <PrivateRoute
+            component={EditSubcategory}
+            exact
+            path="/comsubcatagory/edit/:catagoryId"
+          ></PrivateRoute>
+          <PrivateRoute component={Client} exact path="/clients"></PrivateRoute>
+          <PrivateRoute component={ViewClient} exact path="/client-view"></PrivateRoute>
+          <PrivateRoute component={Gst} exact path="/gst"></PrivateRoute>
+          <PrivateRoute component={Socialmedia} exact path="/socialmedia"></PrivateRoute>
+          <PrivateRoute component={Address} exact path="/address"></PrivateRoute>
+          <PrivateRoute component={Logo} exact path="/logo"></PrivateRoute>
+
 
 
           {/* BASE ENDING HERE */}
