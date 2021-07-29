@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.js": "/popstore/static/js/main.0a937ab8.chunk.js",
+    "main.js.map": "/popstore/static/js/main.0a937ab8.chunk.js.map",
+    "runtime-main.js": "/popstore/static/js/runtime-main.7c7dadfb.js",
+    "runtime-main.js.map": "/popstore/static/js/runtime-main.7c7dadfb.js.map",
+    "static/css/2.5ded8190.chunk.css": "/popstore/static/css/2.5ded8190.chunk.css",
+    "static/js/2.2ed64952.chunk.js": "/popstore/static/js/2.2ed64952.chunk.js",
+    "static/js/2.2ed64952.chunk.js.map": "/popstore/static/js/2.2ed64952.chunk.js.map",
+    "index.html": "/popstore/index.html",
+    "precache-manifest.2b24968a86227df73fda899a3fe5082f.js": "/popstore/precache-manifest.2b24968a86227df73fda899a3fe5082f.js",
+    "service-worker.js": "/popstore/service-worker.js",
+    "static/css/2.5ded8190.chunk.css.map": "/popstore/static/css/2.5ded8190.chunk.css.map",
+    "static/js/2.2ed64952.chunk.js.LICENSE.txt": "/popstore/static/js/2.2ed64952.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7c7dadfb.js",
+    "static/css/2.5ded8190.chunk.css",
+    "static/js/2.2ed64952.chunk.js",
+    "static/js/main.0a937ab8.chunk.js"
+  ]
+}
